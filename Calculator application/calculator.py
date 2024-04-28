@@ -1,7 +1,6 @@
 from tkinter import *
 import tkinter as tk
 
-
 def click(event):
     global scvalue
     text = event.widget.cget("text")  # cget() is used to get text from button
@@ -32,7 +31,7 @@ root.geometry("450x500")
 root.resizable(width=False, height=False)
 root.configure(bg="#17161b")
 root.title("Calculator by SHIVAM AHUJA")
-photo = PhotoImage(file= "D:\Campusvalley tasks\calculator project\images\calci_logo.png")
+photo = PhotoImage(file= "D:\Campusvalley tasks\Calculator application\images\calci_logo.png")
 root.iconphoto(False, photo)
 
 
